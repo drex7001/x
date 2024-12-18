@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution/Building
+dist/
+build/
+*.egg-info/
+eggs/
+wheels/
+
+# Environment files
+.env
+.env.*
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Local development settings
+*.log
+.pytest_cache/
+.coverage
+
