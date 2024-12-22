@@ -21,12 +21,14 @@ rule1 = ctrl.Rule(temperature['cool'], fan_speed['slow'])
 rule2 = ctrl.Rule(temperature['warm'], fan_speed['medium'])
 rule3 = ctrl.Rule(temperature['hot'], fan_speed['fast'])
 
+
+
 # 4. Create control system and simulation
 fan_control = ctrl.ControlSystem([rule1, rule2, rule3])
 fan_simulation = ctrl.ControlSystemSimulation(fan_control)
 
 # 5. List of input temperatures
-input_temperatures = [-10,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21, 22,23,24,25,26,27,28,29,30,31,32,33,34, 35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,80,90,99,1001556496446]  # Example temperatures,
+input_temperatures = [0,10,20,30,40,50,60,70,80,90,100]  # Example temperatures,
 
 # 6. Compute fan speed for each temperature
 print("Temperature to Fan Speed Mapping:")
