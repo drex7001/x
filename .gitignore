@@ -31,3 +31,6 @@ wheels/
 .pytest_cache/
 .coverage
 
+
+
+mariadb/worldcitiespop.csv
