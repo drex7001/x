@@ -11,7 +11,6 @@ def compressString(s):
         i += 1
     return res
 
-# Get input from the user
 
 print(compressString("AABBBCCCC"))
 print(compressString("AaBbCc"))
